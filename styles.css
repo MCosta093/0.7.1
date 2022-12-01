@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: white;
+  background-color: rgba(15, 14, 22, 0.712);
+}
+
+.barra {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 4px;
+  gap: 0.2rem;
+  border-bottom: none;
+  background-color: rgba(69, 69, 71, 0.877);
+}
+button {
+  position: relative;
+  height: 40px;
+  width: 10px;
+  min-width: 42px;
+  border-radius: 500px;
+  
+}
+svg{
+  width: 20px;
+  height: 20px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
