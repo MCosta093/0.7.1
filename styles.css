@@ -1,14 +1,12 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: white;
-  background-color: rgba(15, 14, 22, 0.712);
+  background-color: rgba(0, 0, 0, 0.884);
 }
-
 .barra {
   position: relative;
   display: flex;
@@ -16,8 +14,8 @@ body {
   justify-content: right;
   padding: 4px;
   gap: 0.2rem;
-  border-bottom: none;
-  background-color: rgba(69, 69, 71, 0.877);
+  border-bottom: 1px white;
+  background-color: rgba(69, 69, 71, 0.911);
 }
 button {
   position: relative;
@@ -25,11 +23,33 @@ button {
   width: 10px;
   min-width: 42px;
   border-radius: 500px;
-  
+  background-color: rgb(104, 104, 104);
+  border: none;
 }
-svg{
+svg {
   width: 20px;
   height: 20px;
+  fill: white;
+}
+.flag svg:first-child {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 0;
+  bottom: 0;
+  border-radius: 500px;
+  background-color: rgba(43, 42, 42, 0.89);
+}
+span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 500px;
+  background-color: rgb(197, 18, 18);
+  min-width: 20px; 
 }
 h1 {
   font-weight: bold;
